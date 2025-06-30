@@ -28,20 +28,20 @@ It provides a clean UI to view and manage employee data — ideal for assignment
 
 ---
 ## Project Structure
-📁 flam-hr-dashboard/
+flam-hr-dashboard/
 ├── app/
-│ ├── layout.tsx → App shell with ThemeToggle + layout
-│ ├── page.tsx → Main dashboard page
-│ ├── globals.css → Global styles
-│ └── hooks/
-│ └── useDarkMode.ts → Custom hook for theme toggle
+│   ├── layout.tsx              # App shell with ThemeToggle + layout
+│   ├── page.tsx                # Main dashboard page
+│   ├── globals.css             # Global styles
+│   └── hooks/
+│       └── useDarkMode.ts      # Custom hook for theme toggle
 ├── components/
-│ ├── ThemeToggle.tsx
-│ ├── EmployeeCard.tsx
-│ ├── EmployeeModal.tsx
-│ └── DepartmentFilter.tsx
+│   ├── ThemeToggle.tsx         # Toggle for dark/light mode
+│   ├── EmployeeCard.tsx        # Card UI for each employee
+│   ├── EmployeeModal.tsx       # View & Promote modal
+│   └── DepartmentFilter.tsx    # Filter employees by department
 ├── public/
-│ └── employees.json → Sample employee data
+│   └── employees.json          # Static employee data (mock)
 ├── tailwind.config.ts
 ├── postcss.config.js
 ├── tsconfig.json
@@ -58,3 +58,6 @@ It provides a clean UI to view and manage employee data — ideal for assignment
 ```bash
 git clone https://github.com/shriram-8teen/HR-Dashboard.git
 cd HR-Dashboard
+Now visit 👉 http://localhost:3000
+
+
