@@ -27,7 +27,25 @@ It provides a clean UI to view and manage employee data — ideal for assignment
 - **PostCSS**
 
 ---
-
+## Project Structure
+📁 flam-hr-dashboard/
+├── app/
+│ ├── layout.tsx → App shell with ThemeToggle + layout
+│ ├── page.tsx → Main dashboard page
+│ ├── globals.css → Global styles
+│ └── hooks/
+│ └── useDarkMode.ts → Custom hook for theme toggle
+├── components/
+│ ├── ThemeToggle.tsx
+│ ├── EmployeeCard.tsx
+│ ├── EmployeeModal.tsx
+│ └── DepartmentFilter.tsx
+├── public/
+│ └── employees.json → Sample employee data
+├── tailwind.config.ts
+├── postcss.config.js
+├── tsconfig.json
+└── package.json
 
 ##  Getting Started
 ## Install Dependencies
